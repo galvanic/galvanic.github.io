@@ -1,0 +1,72 @@
+body {
+	background-color: white;
+	font-family: 'Karla', sans-serif;
+	padding: 10px;
+	color: #505050;
+}
+
+h1, h2 {
+	font-family: 'Nixie One', cursive;
+	padding: 0;
+	margin: 0;
+	color: black;
+}
+
+header h2:after {
+	content: ":";
+}
+
+header {
+	background-color: #F8F8F8;
+}
+
+header img {
+	float: left;
+	height: 200px;
+ 	width: auto;
+ 	padding: 0 10px 10px 0;
+ 	background-color: white;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+}
+
+header:before, header:after {
+    content:"";
+	display: table;
+}
+header:after {
+	clear: both;
+}
+
+img:hover {
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+}
+
+header li {
+	display: inline;
+}
+
+header li+li:before {
+	content: " \2022  ";
+}
+
+a {
+	color: #3333CC;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FF3366;
+}
+
+.contact a {
+	color: #FF3366;
+}
+
+div {
+	background-color: #F0F0F0;
+	padding: 10px;
+}
