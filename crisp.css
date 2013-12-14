@@ -31,9 +31,14 @@ header img {
  	padding: 0 10px 10px 0;
  	margin-right: 20px;
  	background-color: white;
-	filter: grayscale(100%);
-	-webkit-filter: grayscale(100%);
-	-moz-filter: grayscale(100%);
+	filter: grayscale(100%) brightness(100%); /*Keeping the brightness thing in case I want to use it later*/
+	-webkit-filter: grayscale(100%) brightness(100%);
+	-moz-filter: grayscale(100%) brightness(100%);
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
 }
 
 header:before, header:after {
@@ -45,9 +50,9 @@ header:after {
 }
 
 img:hover {
-	filter: grayscale(0%);
-	-webkit-filter: grayscale(0%);
-	-moz-filter: grayscale(0%);
+	filter: grayscale(0%) brightness(100%);
+	-webkit-filter: grayscale(0%) brightness(100%);
+	-moz-filter: grayscale(0%) brightness(100%);
 }
 
 header li {
@@ -82,4 +87,29 @@ div {
 	background-color: #F0F0F0;
 	padding: 10px;
 	padding-left: 20px;
+}
+
+ul ul li {
+	display: inline;
+}
+
+ul ul li:after {
+	content: ", ";
+}
+
+ul ul li:last-child:before {
+	content: "and ";
+}
+
+ul ul li:last-child:after {
+	content: "";
+}
+
+ul ul li:first-child {
+	text-transform: capitalize;
+}
+
+ul ul {
+	display: inline;
+	padding: 0;
 }
