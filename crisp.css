@@ -85,8 +85,7 @@ div a[href^="http"]:before {
 
 div {
 	background-color: #F0F0F0;
-	padding: 10px;
-	padding-left: 20px;
+	padding: 10px 200px 10px 20px;
 }
 
 ul ul li {
@@ -113,3 +112,22 @@ ul ul {
 	display: inline;
 	padding: 0;
 }
+
+@media (max-width: 650px) {
+	header img {
+		float: none;
+		display: block;
+		margin: auto;
+		padding: 10px;
+	}
+	div {
+		padding: 5px;
+	}
+}
+
+@media (max-width: 460px) {
+	li {
+		display: block; !important
+	}
+}
+
