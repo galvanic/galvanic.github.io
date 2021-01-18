@@ -9,8 +9,8 @@ body {
 
 header {
 	background-color: #F8F8F8;
-  margin: 40px;
-  padding: 12px 1px;
+  margin: 40px 0;
+  padding: 12px 0;
 }
 
 header li {
@@ -22,7 +22,7 @@ header li+li:before {
 }
 
 ul, p {
-  padding-left: 40px;
+  padding: 0 40px;
 }
 
 a {
