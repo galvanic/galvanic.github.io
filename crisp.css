@@ -21,6 +21,10 @@ header li+li:before {
 	content: " \2022  ";
 }
 
+ul, p {
+  padding-left: 40px;
+}
+
 a {
 	color: #3333CC;
 	text-decoration: none;
