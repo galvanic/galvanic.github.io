@@ -1,2 +1,13 @@
+## justine added these
 sayhi.png
 _scripts/
+package*
+.nvmrc
+.eleventy.js
+
+# node modules
+node_modules
+
+# eleventy output
+_site
+
