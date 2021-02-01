@@ -2,5 +2,5 @@
 node_modules
 
 # eleventy output
-#_site
+_site
 
