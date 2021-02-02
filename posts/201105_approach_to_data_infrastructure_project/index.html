@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="my approach to a data infrastructure project" />
+    <title>my approach to a data infrastructure project</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles/common.css" />
+    <link rel="stylesheet" href="../../styles/blogpost.css" />
+    <link rel="stylesheet" href="../../styles/prism-theme.css"/>
+  </head>
+
+  <body>
+    <div class="container post-container">
+        <h1>my approach to a data infrastructure project</h1>
+
+      <div class='content'><p>[ I prepared this answer for a job application process. ]</p>
+<ul>
+<li>
+<p>Assess what is already in place and ask the stakeholders for their input to assess needs.</p>
+</li>
+<li>
+<p>What is working with the current system ? What isn’t working ?</p>
+<ul>
+<li>some starting points:
+<ul>
+<li>frequency of updates: seconds, daily, weekly, monthly ?</li>
+<li>level of automatisation ?</li>
+<li>data types, formats ? human-readable vs compressed</li>
+<li>amount of data ? expected throughput ?</li>
+<li>security access for sensitive data ? threat model ? cloud or private storage ?</li>
+<li>constraints: time, budget, privacy, specific software, formats ?</li>
+<li>anticipating future use:
+<ul>
+<li>shapes the infrastructure decisions right down to small details like including an extra “other” field to multiple-choice data in database schemas</li>
+<li>What different teams might want to use the data ? what different questions might be asked of the data ? How can we generalise how the data is stored, structured and modeled so that it can be easily retrieved in the future, without compromising on immediate use ?</li>
+</ul>
+</li>
+<li>need for alerts or monitoring ? dashboards, data visualisations ?</li>
+<li>ease of access: APIs ? pipelines to bring the data directly into jupyter notebooks ?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Having gathered project needs, I would ask what is the next clear step that would improve functionality, and iterate. It’s important to keep changes simple and avoid over-engineering. There’s a tendency to jump into complete costly re-architecture before fully understanding the system. Do we really need big data tools ?</p>
+</li>
+<li>
+<p>anticipating future use:</p>
+<ul>
+<li>when planning data infrastructure, it’s important to balance generalising for future needs, without over-generalising too early (we can’t know the future), and allowing for easy immediate use of the data. Modular, functional thinking allows to design pipelines that have standardised data formats and have easy entry and exit hooks to extend the necessary functionality in the future.</li>
+</ul>
+</li>
+<li>
+<p>automatisation:</p>
+<ul>
+<li>it should be driven by human-readable specifications (the Command design pattern) as much as possible.</li>
+</ul>
+</li>
+<li>
+<p>An important aspect of standardised datasets is to version control them to make it easy to see how a conclusion was reached if needed. This also makes collaboration easier.</p>
+</li>
+</ul>
+</div>
+      <div class="back-link">
+        <a href="/">← Back</a>
+      </div>
+
+    </div>
+  </body>
+
+</html>
