@@ -31,4 +31,6 @@ jobs:
         with:
           publish_dir: _site/
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_branch: gh-pages
+          cname: justinecourty.com
 
