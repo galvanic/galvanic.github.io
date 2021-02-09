@@ -4,3 +4,6 @@ node_modules
 # eleventy output
 _site
 
+## ignore image assets for the moment - they are stored in S3 but i keep them in the local version of this repo to keep track
+/assets/images/
+

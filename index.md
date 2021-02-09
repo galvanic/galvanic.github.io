@@ -15,6 +15,10 @@ title: Justine Courty
 - [About](/pages/about/)
 - [Work With Me](/pages/work_with_me/)
 
+## A vision for the future - in images
+
+- [solarpunk](/visions/solarpunk/)
+
 
 <script>
   if (window.location.hostname == 'www.justinecourty.com') {
