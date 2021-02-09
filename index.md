@@ -25,7 +25,7 @@ title: Justine Courty
   }
 </script>
 <noscript>
-  <img src='https://d1njr7by8sv5ow.cloudfront.net/pixel.png?u=noscript' />
+  <img src='https://d1njr7by8sv5ow.cloudfront.net/sayhi.png?u=noscript' />
 </noscript>
 
 <script
