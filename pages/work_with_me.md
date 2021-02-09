@@ -1,5 +1,5 @@
 ---
-layout: homepage.liquid
+layout: blogpost.liquid
 title: Work With Me
 ---
 
