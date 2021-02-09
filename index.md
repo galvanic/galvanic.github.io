@@ -10,12 +10,12 @@ title: Justine Courty
 - [Twitter](https://twitter.com/justinecourty)
 - [LinkedIn](https://www.linkedin.com/pub/justine-courty/64/498/b9b)
 
-## Pages
+## pages
 
 - [About](/pages/about/)
 - [Work With Me](/pages/work_with_me/)
 
-## A vision for the future - in images
+## a vision for the future - in images
 
 - [solarpunk](/visions/solarpunk/)
 
