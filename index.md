@@ -1,23 +1,7 @@
 ---
 layout: homepage.liquid
-title: Justine Courty
+title: 
 ---
-
-[Click here](#) to move the building of this website higher on my priority list.
-
-- **Email**: justinecourty [at] gmail
-- [Github](https://github.com/galvanic)
-- [Twitter](https://twitter.com/justinecourty)
-- [LinkedIn](https://www.linkedin.com/pub/justine-courty/64/498/b9b)
-
-## pages
-
-- [About](/pages/about/)
-- [Work With Me](/pages/work_with_me/)
-
-## a vision for the future - in images
-
-- [solarpunk](/visions/solarpunk/)
 
 
 <script>
